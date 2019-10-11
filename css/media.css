@@ -1,0 +1,261 @@
+
+@media (max-width: 1100px){
+	/*---   servises   ---*/
+	.services-item-link {
+	    margin-right: 30px;
+	}
+}
+
+/*======================  1000 ======================*/
+@media (max-width: 1000px){
+	/*---   servises   ---*/
+	.services-item-link {
+	    margin-right: 4%;
+	}
+}
+
+/*======================  940 ======================*/
+@media (max-width: 940px){
+	/*---   consultation   ---*/
+	.consultation-block{
+		background-image: none;
+	}
+	.consultation-form .col-md-12{
+		width: 100%;
+	}
+	/*---   contacts   ---*/
+	.contacts .col-md-6{
+		width: 50%;
+	}
+
+}
+
+/*======================  800 ======================*/
+@media (max-width: 800px){
+	.btn-secondary{
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 10px;
+	}
+	.btn-menu{
+		display: block;
+	}
+	.header-menu ul{
+		display: none;
+		position: absolute;
+		z-index: 10;
+		text-align: center;
+		width: 100%;
+		left: 0;
+		right: 0;
+		top: 110px;
+	}
+	.header-menu li{
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+	.header-menu li a{
+		display: block;
+		padding: 10px;
+		background-color: rgba(48,48,48,.9);
+		color: #fff;
+		border: 1px solid #fff;
+	}
+	.header-menu li a:hover{
+		border: 1px solid #fff;
+	}
+	.header-menu .active{
+		border: 1px solid #fff;
+	}
+
+	/*---   servises   ---*/
+	.servises .col-sm-12{
+		width: 100%;
+	}
+	
+	.services-item {
+		margin-bottom: 30px;
+	}
+	.services-item-link {
+	    margin-right: 30px;
+	}
+	
+	/*---   news   ---*/
+	.news{
+		padding: 60px 0 60px;
+	}
+	.news-container .col-sm-12{
+		width: 100%;
+	}
+	.news-info .col-md-12{
+		width: 100%;
+	}
+	.news-info .col-md-6{
+		width: 50%;
+	}
+	.news-slider{
+		max-width: 100%;
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 40px 5px 45px 5px;
+		text-align: center;
+	}
+	.news-blog{
+		text-align: center;
+	}
+	.news-blog-img {
+		margin: 0 auto;
+	}
+	.news-blog-content{
+		padding-bottom: 30px;
+	}
+	.news-slider-title{
+		max-width: 100%;
+		width: 100%;
+	}
+
+	/*---   about   ---*/
+	.about-content{
+		max-width: 100%;
+		text-align: center;
+	}
+
+	/*---   consultation   ---*/
+	.consultation .col-md-12{
+		width: 100%;
+	}
+
+	/*---   advantages   ---*/
+	.advantages .col-sm-12{
+		width: 100%;
+		padding-bottom: 30px;
+	}
+}
+
+/*======================  680 ======================*/
+@media (max-width: 680px){
+	.header-top	{
+		text-align: center;
+	}
+	.btn-top{
+		display: block;
+		float: none;
+		width: 280px;
+		margin: 0 auto; 
+	}
+	.header-mail{
+		padding-right: 0;
+	}
+	.header-menu ul{
+		top: 160px;
+	}
+	
+	/*---   consultation   ---*/
+	.consultation-form .col-sm-12{
+		width: 100%;
+	}
+	.consultation-form button{
+		text-align: center;
+		margin: 32px auto;
+		float: none;
+	}
+
+	/*---   contacts   ---*/
+	.contacts .col-sm-12{
+		width: 100%;
+		text-align: center;
+	}
+	.contact-adress a{
+		text-align: left;
+	}
+	
+	#modal{
+		width: 80%;
+	}
+	#modal-zakaz{
+		width: 80%;
+	}
+}
+
+/*======================  500 ======================*/
+@media (max-width: 500px){
+	/*---   consultation   ---*/
+	.consultation-content {
+    	padding-left: 80px;
+  	}
+	.consultation-content:before {
+   	    width: 70px;
+	}
+
+	/*---   news   ---*/
+	.news-info .col-sm-12{
+		width: 100%;
+	}
+	.news-blog{
+		text-align: left;
+	}
+	.news-blog-img {
+		margin: 0;
+	}
+}
+
+/*======================  400 ======================*/
+@media (max-width: 400px){
+	.header-telephone, .header-mail{
+		display: inline-block;	
+		line-height: 30px;
+		padding-right: 0;
+	}
+	.header-telephone{
+		margin: 10px 12px 0 12px;
+	}
+	.header-mail{
+		margin: 0 12px;		
+	}
+	.header-telephone:before, .header-mail:before{
+		left: 0;
+		top: 0;
+	}
+	.btn-top{
+		margin-top: 10px;
+	}
+	.header-menu ul{
+		top: 190px;
+	}
+
+	/*---   services   ---*/
+	.servises-content {
+    	padding-left: 50px;
+  	}
+	.servises-content:before{
+		width: 40px;
+	}	
+
+	/*---   news   ---*/
+	.news-content {
+    	padding-left: 50px;
+  	}
+	.news-content:before{
+		width: 40px;
+	}
+
+	/*---   consultation   ---*/
+	.consultation-content {
+    	padding-left: 50px;
+  	}
+	.consultation-content:before {
+   	    width: 40px;
+	}
+	.footer-block p{
+		line-height: 24px;
+		padding: 10px 0;
+	}
+	#modal{
+		width: 100%;
+	}
+	#modal-zakaz{
+		width: 100%;
+	}
+}
